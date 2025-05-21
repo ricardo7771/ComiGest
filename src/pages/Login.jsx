@@ -21,7 +21,7 @@ const validNombreUser = 'Ricardo123'
 const validPassword = '12345'
 
 if(NombreUser===validNombreUser & password===validPassword){
-    navigate('/admin')
+    navigate('/Actividades')
 }else{
     setError('credenciales incorrectas')
 }
