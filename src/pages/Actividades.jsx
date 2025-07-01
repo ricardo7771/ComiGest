@@ -98,7 +98,7 @@ const Actividades = () => {
 
         {seccionActiva === 'crearPrograma' && (
           <div className="bg-white p-6 rounded shadow max-w-xl mx-auto">
-            <h2 className="text-xl font-bold mb-4 text-blue-900">Crear Programa</h2>
+            <h2 className="text-xl font-bold mb-4 text-blue-900">Crear Reporte</h2>
             <input
               type="text"
               placeholder="Nombre del Programa"
