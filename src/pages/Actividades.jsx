@@ -15,7 +15,7 @@ const Actividades = () => {
   });
 
   const handleGuardarPrograma = () => {
-    if (programa.trim() === '') return alert('Ingresa un nombre para el programa');
+    if (programa.trim() === '') return alert('Ingresa un nombre para el Reporte');
     console.log('Programa guardado:', programa);
     setProgramas([...programas, programa]);
     setPrograma('');
@@ -54,7 +54,7 @@ const Actividades = () => {
                 : 'bg-blue-800 hover:bg-blue-700'
             }`}
           >
-            <span className="mr-2">➕</span> Crear Programa
+            <span className="mr-2">➕</span> Crear Reporte
           </button>
 
           <button
