@@ -29,7 +29,7 @@ export default function Home() {
             Ver Mapa de Comisarías
           </Button>
           <Button
-            onClick={() => navigate('/Login')}
+            onClick={() => navigate('/Actividades')}
             variant="outline"
             className="border-blue-600 text-blue-600 hover:bg-blue-50 px-6 py-3 text-lg rounded-lg"
           >
